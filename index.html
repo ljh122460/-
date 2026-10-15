@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>狂飙暴力摩托 · Road Rash Highway Combat</title>
+    <meta name="description" content="经典暴力摩托网页版！支持简单/普通/困难三档AI难度、3条生命与高分挑战系统，拳打脚踢飞踹对手、挥击铁链球棒、追逐交警与民用车流，更有 AI 战术电台语音播报与概念重机车工坊！" />
+    <meta property="og:title" content="狂飙暴力摩托 · Road Rash Highway Combat" />
+    <meta property="og:description" content="经典暴力摩托网页版！支持简单/普通/困难三档AI难度、3条生命与高分挑战系统，拳打脚踢飞踹对手、挥击铁链球棒、追逐交警与民用车流！" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,600;0,700;0,800;1,700;1,800&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script>
+      window.addEventListener('unhandledrejection', function(event) {
+        if (event.reason && (event.reason.message || '').includes('WebSocket')) {
+          event.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 overflow-hidden select-none" data-state="title" style="font-family: 'Noto Sans SC', system-ui, -apple-system, sans-serif;">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
